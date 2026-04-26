@@ -8,6 +8,15 @@ class Solution {
                 if(words[i]==words[j]){
                     continue;
                 }
+                if(words[i].length()>words[j].length()){
+
+                    if(words[i].contains(words[j])){
+
+                        list.add(words[j]);
+                        break;
+                }
+
+                }
 
                 if(words[i].contains(words[j])){
                     list.add(words[j]);
