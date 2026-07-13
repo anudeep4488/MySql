@@ -40,5 +40,22 @@ class Solution {
 
             }
         }   
-        return  st.isEmpty();    }
+        return  st.isEmpty();   
+
+    // solving ithout using stcak how use only inputva arry every time think can we do that or nnot
+    // int top = -1;
+    // int j = 0;
+
+    // for (int x : pushed) {
+
+    //     pushed[++top] = x;
+
+    //     while (top >= 0 && pushed[top] == popped[j]) {
+    //         top--;
+    //         j++;
+    //     }
+    // }
+
+    // return top == -1;
+    }
 }
